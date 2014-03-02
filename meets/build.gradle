@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.8.+'
+    }
+}
+apply plugin: 'android-library'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://ksoap2-android.googlecode.com/svn/m2-repo"
+    }
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 19
+        versionCode 1
+        versionName "0.0.1"
+    }
+    release {
+        runProguard false
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+    }
+}
+
+dependencies {
+    compile('com.octo.android.robospice:robospice:1.4.9')
+    compile('com.octo.android.robospice:robospice-google-http-client:1.4.9')
+    compile 'com.google.code.ksoap2-android:ksoap2-android:3.2.0'
+    compile 'com.google.api-client:google-api-client-jackson2:1.17.0-rc'
+    compile 'org.jdeferred:jdeferred-core:1.1.0'
+
+    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}
