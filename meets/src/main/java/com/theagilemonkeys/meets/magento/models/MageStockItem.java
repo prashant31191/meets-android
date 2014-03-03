@@ -5,7 +5,10 @@ import com.theagilemonkeys.meets.models.MeetsStock;
 import com.theagilemonkeys.meets.utils.soap.Serializable;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageStockItem extends Serializable.Object implements MeetsStock.Item {
 

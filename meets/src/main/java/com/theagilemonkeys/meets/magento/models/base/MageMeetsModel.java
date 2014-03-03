@@ -5,7 +5,7 @@ import com.theagilemonkeys.meets.ApiMethodModelHelper;
 import com.theagilemonkeys.meets.models.base.MeetsListener;
 import com.theagilemonkeys.meets.models.base.MeetsModel;
 import com.theagilemonkeys.meets.utils.soap.Serializable;
-import com.theagilemonkeys.utils.Copier;
+import com.theagilemonkeys.meets.utils.Copier;
 
 import org.jdeferred.AlwaysCallback;
 import org.jdeferred.Deferred;
@@ -16,7 +16,10 @@ import org.jdeferred.Promise;
 import java.util.Map;
 
 /**
- * Created by kloster on 10/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public abstract class MageMeetsModel<MODEL extends MeetsModel> extends Serializable.Object implements MeetsModel<MODEL> {
     private transient ApiMethodModelHelper<MODEL> apiMethodCtrl = new ApiMethodModelHelper<MODEL>((MODEL) this);

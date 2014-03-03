@@ -13,10 +13,11 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
-
-
 public class MageMeetsCartItem extends MageMeetsModel<MeetsCart.Item> implements MeetsCart.Item {
 
     @Key private String product_id;

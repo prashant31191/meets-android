@@ -1,4 +1,4 @@
-package com.theagilemonkeys.utils;
+package com.theagilemonkeys.meets.utils;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
@@ -7,7 +7,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by kloster on 30/09/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class Copier {
 

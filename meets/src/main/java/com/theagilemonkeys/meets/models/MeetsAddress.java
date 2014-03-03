@@ -1,7 +1,12 @@
 package com.theagilemonkeys.meets.models;
 
 import com.theagilemonkeys.meets.models.base.MeetsModel;
-
+/**
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
+ */
 public interface MeetsAddress extends MeetsModel<MeetsAddress> {
     String getFirstName();
     String getLastName();

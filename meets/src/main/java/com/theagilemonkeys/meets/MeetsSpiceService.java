@@ -7,7 +7,10 @@ import com.octo.android.robospice.Jackson2GoogleHttpClientSpiceService;
 import roboguice.util.temp.Ln;
 
 /**
- * Created by kloster on 22/11/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MeetsSpiceService extends Jackson2GoogleHttpClientSpiceService {
     @Override

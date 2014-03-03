@@ -9,7 +9,10 @@ import com.theagilemonkeys.meets.models.base.MeetsFactory;
 import com.theagilemonkeys.meets.models.base.MeetsListener;
 
 /**
- * Created by kloster on 14/02/14.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class Meets {
     private static final String restBaseUrl = "/api/rest/";

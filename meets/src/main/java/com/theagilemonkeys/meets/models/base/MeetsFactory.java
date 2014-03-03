@@ -10,7 +10,10 @@ import com.theagilemonkeys.meets.models.MeetsStock;
 import java.util.List;
 
 /**
- * Created by kloster on 10/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public abstract class MeetsFactory {
     private static MeetsFactory instance;

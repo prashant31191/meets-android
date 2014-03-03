@@ -3,7 +3,11 @@ package com.theagilemonkeys.meets;
 import com.theagilemonkeys.meets.models.base.MeetsListener;
 
 /**
- * Created by kloster on 6/02/14.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
+ *
  * Class that let us work with asynchronous methods and listeners
  */
 public interface ApiMethodModelHelperInterface<MODEL> {

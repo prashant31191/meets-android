@@ -6,9 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by kloster on 10/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
-
 public interface MeetsProduct extends MeetsModel<MeetsProduct> {
     String getType();
     String getSku();

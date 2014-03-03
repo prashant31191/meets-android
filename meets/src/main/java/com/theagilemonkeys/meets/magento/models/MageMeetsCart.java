@@ -35,7 +35,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageMeetsCart extends MageMeetsModel<MeetsCart> implements MeetsCart {
 

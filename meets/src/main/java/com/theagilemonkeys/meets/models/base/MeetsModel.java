@@ -5,7 +5,10 @@ import com.theagilemonkeys.meets.ApiMethodModelHelperInterface;
 import java.io.Serializable;
 
 /**
- * Created by kloster on 10/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public interface MeetsModel<MODEL> extends ApiMethodModelHelperInterface<MODEL>, Serializable {
     MODEL fetch();

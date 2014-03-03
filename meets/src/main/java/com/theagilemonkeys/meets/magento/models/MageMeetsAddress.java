@@ -14,7 +14,10 @@ import java.util.Map;
 import static com.theagilemonkeys.meets.utils.StringUtils.safeValueOf;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageMeetsAddress extends MageMeetsModel<MeetsAddress> implements MeetsAddress {
     final static public String MODE_BILLING = "billing";

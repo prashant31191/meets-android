@@ -8,7 +8,10 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.theagilemonkeys.meets.ApiMethod;
 
 /**
- * Created by kloster on 30/09/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class RestApiMethod<RESULT> extends ApiMethod<RESULT> {
 

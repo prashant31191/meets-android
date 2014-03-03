@@ -18,9 +18,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by kloster on 16/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
-
 public class MageMeetsCollection<MODEL extends MeetsModel> extends ArrayList<MODEL> implements MeetsCollection<MODEL> {
     private transient ApiMethodModelHelper<MeetsCollection<MODEL>> apiMethodCtrl = new ApiMethodModelHelper<MeetsCollection<MODEL>>(this);
     private Class<? extends ApiMethod> fetchApiMethodClass;

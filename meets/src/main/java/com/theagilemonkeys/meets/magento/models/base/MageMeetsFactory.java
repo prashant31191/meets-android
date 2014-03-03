@@ -22,7 +22,10 @@ import com.theagilemonkeys.meets.models.base.MeetsFactory;
 import java.util.List;
 
 /**
- * Created by kloster on 16/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageMeetsFactory extends MeetsFactory {
     @Override

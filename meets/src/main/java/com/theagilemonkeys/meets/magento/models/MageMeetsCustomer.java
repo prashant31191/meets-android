@@ -31,7 +31,10 @@ import java.util.Map;
 import javax.annotation.Nullable;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageMeetsCustomer extends MageMeetsModel<MeetsCustomer> implements MeetsCustomer {
     public final static String MODE_GUEST = "guest";

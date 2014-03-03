@@ -18,7 +18,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by kloster on 3/10/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public class MageMeetsProduct extends MageMeetsModel<MeetsProduct> implements MeetsProduct {
     @Key private int entity_id;

@@ -22,7 +22,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by kloster on 30/09/13.
+ * Android Meets SDK
+ * Original work Copyright (c) 2014 [TheAgileMonkeys]
+ *
+ * @author Álvaro López Espinosa
  */
 public abstract class ApiMethod<RESULT> extends GoogleHttpClientSpiceRequest<RESULT> implements RequestListener<RESULT> {
 
