@@ -95,5 +95,11 @@ Special thanks to people involved in the following projects. They have made easi
 - [jDeferred](https://github.com/jdeferred/jdeferred)
 
 # License
+
 This project uses the MIT license. See LICENSE.txt
 
+# Next steps
+
+1. Upload project to Maven central repository
+1. Add javadoc
+1. Keep on adding more Magento API use cases
