@@ -44,7 +44,6 @@ Right now you have to follow this steps:
            // ...
         }
 
-
 1. Add the `MeetsSpiceService` service to your AndroidManifest.xml file:
 
         <manifest ...>
@@ -56,7 +55,6 @@ Right now you have to follow this steps:
             </application>
         </manifest>
 
-
 1. Finally, be sure you have `ACCESS_NETWORK_STATE` and `INTERNET` permissions in your AndroidManifest.xml file:
 
         <manifest ...>
@@ -66,7 +64,8 @@ Right now you have to follow this steps:
         </manifest>
 
 # Meets at Meet Magento Spain conference
-<img src="http://es.meet-magento.com/wp-content/themes/Fest/images/style1/logo.png" alt="Meet Magento Spain logo" title="Meet Magento Spain"/>
+
+![Meet Magento Spain logo](http://es.meet-magento.com/wp-content/themes/Fest/images/style1/logo.png "Meet Magento Spain")
 
 Meets have been announced at [Meet Magento Spain](http://es.meet-magento.com/), a Magento eCommerce conference
 where merchants, Magento agencies, Magento service provider and the Magento community exchange knowledge and
