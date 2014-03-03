@@ -1,4 +1,4 @@
-![Meets logo](raw/logo_android_meets.png "Meets")
+![Meets logo](./raw/logo_android_meets.png "Meets")
 
 # Overview
 Android Meets is a native SDK designed to ease communication between mobile apps and Magento stores.
