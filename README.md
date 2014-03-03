@@ -1,4 +1,4 @@
-![Meets logo](http://meets.io/assets/logo_android_meets_magento-d83f8010b106647d251e489a8758047f.png "Meets")
+![Meets logo](raw/logo_android_meets.png "Meets")
 
 # Overview
 Android Meets is a native SDK designed to ease communication between mobile apps and Magento stores.
@@ -73,6 +73,8 @@ experiences with enthusiastic decision maker and experts according the topics Ma
 
 [Meets at Meet Magento Spain.](http://es.meet-magento.com/meets/)
 
+# Open source projects that have help Meets to come a reality
+
+
 # License
 
-# Thanks to
