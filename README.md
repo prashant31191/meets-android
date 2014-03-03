@@ -1,6 +1,7 @@
-![Meets logo](logo_android_meets.png "Meets")
+![Meets logo](http://meets.io/assets/logo_android_meets_magento-d83f8010b106647d251e489a8758047f.png "Meets")
 
 # Overview
+
 Android Meets is a native SDK designed to ease communication between mobile apps and Magento stores.
 It allows you to access Magento's data as if it were local data.
 
@@ -8,6 +9,7 @@ You don't have to worry about learning Magento's SOAP and REST APIs or dealing w
 Instead, you can only focus on building a rich native mobile shopping experience.
 
 # Main features
+
 - Native library that works with your project out of the box.
 - Allows you to forget complexities and focus on what really matters.
 - Access to Magento users, categories and products as if they were local data.
@@ -16,10 +18,18 @@ Instead, you can only focus on building a rich native mobile shopping experience
 - Direct contact with Meets programmers to resolve issues.
 
 # Learn more
+
 You can learn more about Meets in the official web page, <http://meets.io/>, and in the [API documentation](http://meets.io/docs)
 
 # How to install
-> **WARNING:** _Note that this is a alpha version of Meets so it's not intended to use in productions environments. We are working hard to have a stable version as soon as possible._
+
+> **WARNING:**
+>
+>_Note that this is a alpha version of Meets so it's not intended to use in productions environments.
+>We are working hard to have a stable version as soon as possible._
+>
+> _Also note that all data sent and retrieved to/from the server goes in plain text. If you want to use Meets to work
+> with sensitive information be sure to be under a secure connection._
 
 We are working hard to make the installation process as easy as possible. Future releases will be published in Maven central repository
 so you will only have to add the Meets library dependency to your project.
@@ -44,6 +54,7 @@ Right now you have to follow this steps:
            // ...
         }
 
+
 1. Add the `MeetsSpiceService` service to your AndroidManifest.xml file:
 
         <manifest ...>
@@ -55,6 +66,7 @@ Right now you have to follow this steps:
             </application>
         </manifest>
 
+
 1. Finally, be sure you have `ACCESS_NETWORK_STATE` and `INTERNET` permissions in your AndroidManifest.xml file:
 
         <manifest ...>
@@ -65,7 +77,7 @@ Right now you have to follow this steps:
 
 # Meets at Meet Magento Spain conference
 
-![Meet Magento Spain logo](http://es.meet-magento.com/wp-content/themes/Fest/images/style1/logo.png "Meet Magento Spain")
+![Meet Magento Spain logo](http://es.meet-magento.com/wp-content/uploads/2012/10/blogi4mm14es.jpg "Meet Magento Spain")
 
 Meets have been announced at [Meet Magento Spain](http://es.meet-magento.com/), a Magento eCommerce conference
 where merchants, Magento agencies, Magento service provider and the Magento community exchange knowledge and
@@ -75,6 +87,13 @@ experiences with enthusiastic decision maker and experts according the topics Ma
 
 # Open source projects that have help Meets to come a reality
 
+Special thanks to people involved in the following projects. They have made easier to achieve the goals of Meets:
+
+- [Robospice](https://github.com/octo-online/robospice)
+- [Jackson](http://jackson.codehaus.org/)
+- [KSoap 2](https://code.google.com/p/ksoap2-android/)
+- [jDeferred](https://github.com/jdeferred/jdeferred)
 
 # License
+This project uses the MIT license. See LICENSE.txt
 
