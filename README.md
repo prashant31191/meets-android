@@ -36,7 +36,7 @@ so you will only have to add the Meets library dependency to your project.
 
 Right now you have to follow these steps:
 
-1. Download the `.jar` file from "Downloads" section.
+1. Download the `.jar` file from the `/bin` folder.
 1. Put it inside `libs/` directory of your android project.
 1. Now you have to add Meets library and its dependencies in your `build.gradle` file, inside the `dependencies` section:
 
