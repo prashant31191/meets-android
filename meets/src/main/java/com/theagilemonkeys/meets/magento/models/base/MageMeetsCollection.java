@@ -206,7 +206,7 @@ public class MageMeetsCollection<MODEL extends MeetsModel> extends ArrayList<MOD
         return apiMethodCtrl.pushMethod(method);
     }
 
-    public ApiMethodModelHelper<MeetsCollection<MODEL>> forceNextCacheToBe(boolean enable) {
+    public MeetsCollection<MODEL> forceNextCacheToBe(boolean enable) {
         return apiMethodCtrl.forceNextCacheToBe(enable);
     }
 
@@ -230,7 +230,7 @@ public class MageMeetsCollection<MODEL extends MeetsModel> extends ArrayList<MOD
         return apiMethodCtrl.pushDeferred(deferred);
     }
 
-    public ApiMethodModelHelper<MeetsCollection<MODEL>> setModelCache(boolean enable) {
+    public MeetsCollection<MODEL> setModelCache(boolean enable) {
         return apiMethodCtrl.setModelCache(enable);
     }
 

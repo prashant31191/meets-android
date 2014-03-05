@@ -51,4 +51,21 @@ public interface ApiMethodModelHelperInterface<MODEL> {
      * @return This model
      */
     MODEL nextWaitForPrevious();
+
+    /**
+     * Force to enable or disable cache during the next operations, bypassing model cache. After that,
+     * the cache will return to its previous state (see {@link #setModelCache(boolean)} for details}
+     * @return This model
+     */
+    public MODEL forceNextCacheToBe(boolean enable);
+
+    /**
+     * Disable or enable the cache for all operations in this model. Note that when model cache is enabled,
+     * the configuration for it will be taken from ApiMethod, so if cache is disabled in ApiMethod, this
+     * functions does nothing.
+     * By default is enabled
+     * @param enable Whether to enable or disable cache
+     * @return This object
+     */
+    public MODEL setModelCache(boolean enable);
 }

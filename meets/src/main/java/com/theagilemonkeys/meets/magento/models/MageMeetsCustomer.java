@@ -295,8 +295,16 @@ public class MageMeetsCustomer extends MageMeetsModel<MeetsCustomer> implements 
                     public void onDone(Object o) {
                         MeetsAddress resultAddress = (MeetsAddress) o;
                         meetsAddress.setId(resultAddress.getId());
-                        if (addresses == null)
-                            addresses = new MageMeetsCollectionPojos.Addresses();
+                        if (addresses == null) addresses = new MageMeetsCollectionPojos.Addresses();
+
+                        // Update the default billing and shipping state in the other addresses
+                        for (MeetsAddress address : addresses) {
+                            if (meetsAddress.isDefaultBilling() && address.isDefaultBilling())
+                                address.setDefaultBilling(false);
+                            if (meetsAddress.isDefaultShipping() && address.isDefaultShipping())
+                                address.setDefaultShipping(false);
+                        }
+
                         addresses.add((MageMeetsAddress) meetsAddress);
                     }
                 })

@@ -89,7 +89,7 @@ public abstract class MageMeetsModel<MODEL extends MeetsModel> extends Serializa
         return apiMethodCtrl.pushMethod(method);
     }
 
-    public ApiMethodModelHelper<MODEL> forceNextCacheToBe(boolean enable) {
+    public MODEL forceNextCacheToBe(boolean enable) {
         return apiMethodCtrl.forceNextCacheToBe(enable);
     }
 
@@ -113,7 +113,7 @@ public abstract class MageMeetsModel<MODEL extends MeetsModel> extends Serializa
         return apiMethodCtrl.pushDeferred(deferred);
     }
 
-    public ApiMethodModelHelper<MODEL> setModelCache(boolean enable) {
+    public MODEL setModelCache(boolean enable) {
         return apiMethodCtrl.setModelCache(enable);
     }
 

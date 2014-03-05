@@ -164,9 +164,9 @@ public class ApiMethodModelHelper<MODEL> implements ApiMethodModelHelperInterfac
      * the cache will return to its previous state (see {@link #setModelCache(boolean)} for details}
      * @return This model
      */
-    public ApiMethodModelHelper<MODEL> forceNextCacheToBe(boolean enable) {
+    public MODEL forceNextCacheToBe(boolean enable) {
         forceNextCacheEnable = enable;
-        return this;
+        return model;
     }
 
     /**
@@ -177,9 +177,9 @@ public class ApiMethodModelHelper<MODEL> implements ApiMethodModelHelperInterfac
      * @param enable Whether to enable or disable cache
      * @return This object
      */
-    public ApiMethodModelHelper<MODEL> setModelCache(boolean enable) {
+    public MODEL setModelCache(boolean enable) {
         modelCacheEnable = enable;
-        return this;
+        return model;
     }
 
     public static abstract class DelayedParams {
