@@ -26,7 +26,7 @@ You can learn more about Meets in the official web page, <http://meets.io/>, and
 > **WARNING:**
 >
 >_Note that this is a beta version of Meets so it's not intended to use in production environments.
->We are working hardly to have an stable version as soon as possible._
+>We are working hardly to have a stable version as soon as possible._
 >
 > _Also note that all data sent and retrieved to/from the server goes in plain text. If you want to use Meets to work
 > with sensitive information be sure to be under a secure connection._
@@ -36,9 +36,8 @@ so you will only have to add the Meets library dependency to your project.
 
 Right now you have to follow these steps:
 
-1. Download the `.jar` file from the `/bin` folder.
-1. Put it inside `libs/` directory of your android project.
-1. Now you have to add Meets library and its dependencies in your `build.gradle` file, inside the `dependencies` section:
+1. Download the `.jar` file from the `/bin` folder and put it inside `libs/` directory of your android project.
+1. Add Meets library and its dependencies in your `build.gradle` file, inside the `dependencies` section:
 
         dependencies {
            // ....
@@ -85,7 +84,7 @@ experiences with enthusiastic decision maker and experts according the topics Ma
 
 [Meets at Meet Magento Spain.](http://es.meet-magento.com/meets/)
 
-# Open source projects that have helped Meets to come a reality
+# Open source projects that have helped Meets to become real
 
 Special thanks to people involved in the following projects. They have made easier to achieve the goals of Meets:
 
@@ -96,7 +95,7 @@ Special thanks to people involved in the following projects. They have made easi
 
 # License
 
-This project uses the MIT license. See LICENSE.txt
+This project uses the MIT license. See LICENSE.
 
 # Next steps
 
