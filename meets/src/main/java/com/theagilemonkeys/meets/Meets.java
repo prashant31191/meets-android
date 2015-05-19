@@ -55,6 +55,7 @@ public class Meets {
         ApiMethod.fixedParams.put("store", storeId);
         ApiMethod.fixedParams.put("storeId", storeId);
         ApiMethod.fixedParams.put("storeView", storeId);
+         ApiMethod.fixedParams.put("storeName", storeName);
     }
 
     public static void init(Context applicationContext, MeetsFactory factory, String hostUrl, String soapApiUser, String soapApiPass,
